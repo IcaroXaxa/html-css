@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(141, 30, 2);
+    color: rgb(0, 255, 200);
+    /* shorthand font
+    font-style -> font-weight -> font-size -> font-family
+    font-family: 'Work-sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}

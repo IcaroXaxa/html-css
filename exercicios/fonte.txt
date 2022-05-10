@@ -1,0 +1,6 @@
+@import url('httpsfonts.googleapis.comcss2family=Montserrat&display=swap');
+
+background-image: linear-gradient(to right,#09395B, #023859, #002C4B);
+
+color: #EFDFAE;
+

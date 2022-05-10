@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('httpsfonts.googleapis.comcss2family=Montserrat&display=swap');
+
+/* 
+em HTML é id    = em CSS é #
+em HTML é class = em CSS é .
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right,#09395B, #023859, #002C4B) ;
+    color: #EFDFAE;    
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h1 {
+    text-align: left;
+    color: #cfc56b;
+}
+
+ h1#Fuck {
+    text-align: center;
+    color: #EFDFAE;
+}
+
+p.shit {
+    color:rgb(202, 48, 48)
+}
+
+.secreto {
+    color: rgb(80, 20, 220);
+}
