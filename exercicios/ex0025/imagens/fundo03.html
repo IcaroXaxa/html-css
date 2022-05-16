@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de Background-position</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right,#09395B, #023859, #002C4B);
+            color: #EFDFAE;
+        }
+
+        div.bloco { 
+            height: 300px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            /*background-color: #466a8f;*/
+            background-image: url(wallpaper003.jpg);
+            width: 1280px;
+            text-align: center;
+            margin: auto;
+        }
+
+        /*div#b1 {
+            background-image: url(pattern001.png);
+        }
+
+        div#b2 {
+            background-image: url(pattern002.png);
+        }
+
+        div#b3 {
+            background-image: url(pattern003.png);
+        }
+
+        div#b4 {
+            background-image: url(pattern004.png);
+        }*/
+
+        div#b1 {
+            background-position: left top;
+            margin-bottom: 10px;
+        }
+
+        div#b2 {
+            background-position: left center;
+            margin-bottom: 10px;
+        }
+
+        div#b3 {
+            background-position: right bottom;
+            margin-bottom: 10px;
+        }
+
+        div#b4 {
+            background-position: center center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bloco" id="b1">
+
+    </div>
+    <div class="bloco" id="b2">
+
+    </div>
+    <div class="bloco" id="b3">
+
+    </div>
+    <div class="bloco" id="b4">
+
+    </div>
+</body>
+</html>
