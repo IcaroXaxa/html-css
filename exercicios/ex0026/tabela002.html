@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLEAS2</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right,#09395B, #023859, #002C4B);
+            color: #EFDFAE;
+            font-weight: bold;
+        }
+
+        table {
+            border-collapse: collapse;          
+        }
+
+        th, td {
+            padding: 6px;
+            border: 1px solid #EFDFAE;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>9 pessoas</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>71 pessoas</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Habitantes Totais</th>
+                <td>80</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
