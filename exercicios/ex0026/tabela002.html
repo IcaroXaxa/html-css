@@ -20,6 +20,19 @@
             padding: 6px;
             border: 1px solid #EFDFAE;
         }
+
+        tbody > tr:nth-child(2n) {
+            background-color: #002C4B;
+        }
+
+        caption {
+            font-weight: bolder;
+            padding: 6px;
+            background-color: #002C4B;
+            border: 1px solid #EFDFAE;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }    
     </style>
 </head>
 <body>
@@ -27,6 +40,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -35,6 +49,7 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <th>Estado</th>
             <th>População</th>
@@ -48,11 +63,27 @@
                 <td>Roraima</td>
                 <td>71 pessoas</td>
             </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>10 pessoas</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>71 pessoas</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>10 pessoas</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>9 pessoas</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th>Habitantes Totais</th>
-                <td>80</td>
+                <td>180</td>
             </tr>
         </tfoot>
     </table>
