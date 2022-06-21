@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascribt</title>
+    <style>
+        body {
+            background-color: #002C4B;
+            color: #EFDFAE;
+        }
+
+        a {
+            text-decoration: none;
+            color: #EFDFAE;
+            font-weight: bolder;
+        }
+        a:hover {
+            color: rgb(227, 196, 36);
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicaste()">Clique aqui</a>
+    <div id="sair"></div>
+
+    <script>
+        function clicaste() {
+            s = window.document.getElementById("sair")
+            s.innerHTML += '<p>Clicastes</p>'
+        }
+    </script>
+</body>
+</html>
