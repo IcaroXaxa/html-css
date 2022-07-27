@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forius</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right,#09395B, #023859, #002C4B);
+            color: #EFDFAE;
+        }
+
+        fieldset {
+            background-color: #002C4B;
+            width: 100px;
+            border: 2px solid #EFDFAE;
+        }
+
+        .marcados:hover {
+            color: rgb(78, 166, 244);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="infosxmas" value="M"> <label for="infosxmas" class="marcados">Masculino</label> <br>
+            <input type="radio" name="sexo" id="infosxfem" value="F"> <label for="infosxfem" class="marcados">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes</legend>
+            <input type="checkbox" name="esbas" id="infoesbas"> <label for="infoesbas" class="marcados">Basquete</label> <br>
+            <input type="checkbox" name="esfut" id="infoesfut"> <label for="infoesfut" class="marcados">Futebol</label> <br>
+            <input type="checkbox" name="esnat" id="infoesnat"> <label for="infoesnat" class="marcados">Natação</label> <br>
+            <input type="checkbox" name="esten" id="infoesten"> <label for="infoesten" class="marcados">Tênis</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
