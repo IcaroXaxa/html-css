@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fius</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="infon1">Número 1: </label>
+            <input type="number" name="n1" id="infon1" min="0" max="80" required oninput="infosoma.innerHTML = Number(infon1.value) + Number(infon2.value)">
+        </p>
+        <p>
+            <label for="infon2">Número 2: </label>
+            <input type="number" name="n2" id="infon2" min="0" max="80" required oninput="infosoma.innerHTML = Number(infon1.value) + Number(infon2.value)">
+        </p>
+        <p>
+            <label for="infosoma">Soma: </label>
+            <output name="soma" id="infosoma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
