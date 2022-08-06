@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Estilo para impressora */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    background-image: linear-gradient(to right,#09395B, #023859, #002C4B);
+    color: #EFDFAE;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse artigo serve como propaganda para a Team Cherry: https://www.hollowknight.com/';
+}
