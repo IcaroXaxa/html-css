@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* Configurações gerais */
+
+body {
+    background-image: linear-gradient(to right,#09395B, #023859, #002C4B);
+    color: #EFDFAE;
+}
