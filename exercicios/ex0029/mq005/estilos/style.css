@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body, html {
+    background-image: linear-gradient(to right,#09395B, #023859, #002C4B);
+    color: #EFDFAE;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(102, 237, 255);
+    font-weight: lighter;
+    text-decoration: none;
+}
