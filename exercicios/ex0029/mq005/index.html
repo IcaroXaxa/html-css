@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mediuns Queir</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 <body>
     <header>
         <h1>Site</h1>
-        <menu>
+        <span id="borgir" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="item">
             <ul>
                 <li><a href="#">Opção #1</a></li>
                 <li><a href="#">Opção #2</a></li>
@@ -29,5 +31,14 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iste enim, quas ducimus aperiam, laborum blanditiis rem aliquid fuga exercitationem repellendus alias eum assumenda nihil consequatur maiores repellat, quisquam nisi?</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (item.style.display == 'block') {
+                item.style.display = 'none'
+            } else {
+                item.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

@@ -36,8 +36,18 @@ header > h1 {
     padding: 16px;
 }
 
-menu {
+span#borgir {
     display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+span#borgir:hover {
+    background-color: rgba(84, 120, 204, 0.562);
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
